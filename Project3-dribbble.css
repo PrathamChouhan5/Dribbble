@@ -1,0 +1,190 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+} 
+html,body{ 
+    height: 100%; 
+    width: 100%;
+} 
+#nav { 
+    height: 72px; 
+    width: 100%;  
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 30px 6px;
+    color: #6e6d7a;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+#nav-part1 img{   
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    padding-right: 8px;
+    height: 30px; 
+    width: 100px;  
+}
+#nav-part1{ 
+    display: flex;   
+    align-items: center;
+    gap: 30px;  
+}  
+#nav-part1 h4{  
+    cursor: pointer;
+} 
+#nav-part2{ 
+    display: flex;  
+    align-items: center; 
+    gap: 20px; 
+    padding-right: 20px; 
+    font-size: 18px;
+}  
+#nav-part2 button{  
+    font-family: gilroy;
+    font-size: 16px; 
+    border: none;   
+    background-color: #fff;
+    border-radius: 10px; 
+    cursor: pointer;
+} 
+#nav-part2 #bt{  
+    color: #fff;
+    background-color: #e04e86; 
+    padding: 11px 14px;
+}  
+#nav-part2 i{ 
+    cursor: pointer;
+}
+
+#center{  
+    height: 86.6%; 
+    width: 100%;
+    position: relative;
+} 
+#center video{  
+    height: 100%; 
+    width: 100%;
+    object-fit: cover;
+} 
+#center #overlay{  
+    height: 100%; 
+    width: 100% ;  
+    position: absolute; 
+    top: 0;
+    background-color: #00000063;
+} 
+#top{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;  
+    gap: 18px; 
+    padding-top: 60px;
+ } 
+#top h3{  
+    font-size: 18px; 
+    font-weight: 100;
+    color: #fff; 
+    background-color: #00000088; 
+    padding: 16px 20px; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    transition: all ease 0.5s;
+}  
+#top h3:hover{ 
+    background-color: #fff ; 
+    color: #000;
+} 
+#top #pm{ 
+    background-color: #fff; 
+    color: #000;
+}
+#mid{  
+    font-size: 20px;
+    color: #fff; 
+    text-align: center;  
+    padding-top: 40px; 
+    position: relative;
+} 
+#mid p{  
+    padding-top: 20px; 
+    line-height: 28px;
+} 
+input{  
+    width: 45%; 
+    height: 60px; 
+    margin-left: 27%; 
+    margin-top: 45px;  
+    border: none; 
+    outline: none;
+    border-radius: 50px; 
+    padding: 25px 25px;
+} 
+#bottom{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 11px;   
+    margin-top: 40px; 
+    font-size: 18px;   
+    color: #fff;
+} 
+#bottom h5{ 
+    background-color: transparent;  
+    border: 0.01px solid #fff ; 
+    border-radius: 50px;
+    padding: 6px 12px; 
+    letter-spacing: 0.5px; 
+    cursor: pointer;
+}
+#bottom h6{ 
+    font-size: 13px;
+} 
+
+#page2 { 
+    height: 140%; 
+    width: 100%; 
+    background-color: rgb(231, 201, 206); 
+    padding-top: 40px; 
+    padding-left: 42px;
+} 
+.elm{ 
+    height: 220px; 
+    width: 280px; 
+    display: inline-block; 
+    margin-left: 28px; 
+    margin-top: 50px;
+    border-radius: 10px; 
+    overflow: hidden; 
+    position: relative;  
+    cursor: pointer;
+} 
+.elm img{ 
+    height: 100%; 
+    width: 100%;
+    object-fit: cover;
+} 
+.elm #overlay{  
+    height: 30%; 
+    width: 100%; 
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.829));
+    position: absolute; 
+    bottom: -40%; 
+    transition: all ease 0.3s; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-evenly; 
+}  
+.elm:hover #overlay{ 
+    bottom: 0%;
+}
+.elm h3{ 
+    color: #fff;
+} 
+.elm i{  
+    padding: 10px;
+    background-color: #fff; 
+    border-radius: 8px;
+}
